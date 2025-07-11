@@ -1,3 +1,6 @@
+import sys
+import os
+sys.path.insert(0,os.path.join(os.path.dirname(__file__),'..'))
 
 from src.classes.engine import GameEngine
 from src.classes.game_status import GameStatus
