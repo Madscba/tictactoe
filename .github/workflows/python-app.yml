@@ -26,7 +26,6 @@ jobs:
     - name: Install and update uv 
       run: |
         python -m pip install uv
-        uv self update
     - name: Install dependencies
       run: |
         uv sync
