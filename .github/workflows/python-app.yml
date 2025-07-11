@@ -32,7 +32,6 @@ jobs:
     - name: Install dependencies
       run: |
         uv sync
-        source .venv/bin/activate
     - name: Test with pytest
       run: |
-        pytest
+        uv venv exec pytest
