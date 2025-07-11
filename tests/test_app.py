@@ -1,6 +1,3 @@
-import sys
-import os
-sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from src.classes.engine import GameEngine
 from src.classes.game_status import GameStatus
