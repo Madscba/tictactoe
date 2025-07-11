@@ -33,7 +33,6 @@ jobs:
       - name: Install dependencies
         run: |
           uv sync
-          uv add -e .
 
       - name: Run pytests
         run: uv run pytest
