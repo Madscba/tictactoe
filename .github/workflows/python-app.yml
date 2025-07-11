@@ -33,7 +33,7 @@ jobs:
         run: uv sync
 
       - name: Install src 
-        run: pip install -e .
+        run: uv add -e .
 
       - name: Run pytests
         run: uv run pytest
