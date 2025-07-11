@@ -1,4 +1,4 @@
-from src.classes.engine import GameEngine
+from classes.engine import GameEngine
 
 if __name__ == "__main__":
     game_engine = GameEngine()
