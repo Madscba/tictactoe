@@ -1,9 +1,9 @@
 import numpy as np
 from pydantic import BaseModel, Field
 
-from src.classes.game_status import GameStatus
-from src.classes.player import Player
-from src.classes.player_move import Move
+from classes.game_status import GameStatus
+from classes.player import Player
+from classes.player_move import Move
 
 
 class Board(BaseModel):

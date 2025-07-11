@@ -1,7 +1,7 @@
 from pydantic import BaseModel
 from abc import abstractmethod
 from enum import Enum
-from src.classes.player_move import Move
+from classes.player_move import Move
 import typing as T
 
 

@@ -11,11 +11,13 @@ dependencies = [
     "pytest>=8.4.1",
 ]
 
-[tool.setuptools]
-packages = ["src"]
-package-dir = {"" = "src"}
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
 
-[tool.pytest.ini_options]
-pythonpath = ["/"]
-addopts = "-v"
-testpaths = ["tests"]
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["*"]
+
+[tool.setuptools.package-dir]
+"" = "src"

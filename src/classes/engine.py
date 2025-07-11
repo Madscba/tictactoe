@@ -1,10 +1,10 @@
 from distutils.command.install import value
 
-from src.classes.board import Board
-from src.classes.player import Player, HumanPlayer, MockPlayer
-from src.classes.game_status import GameStatus
-from src.classes.player_move import Move
-from src.visualization.visualize_board import VisualizeBoardInTerminal
+from classes.board import Board
+from classes.player import Player, HumanPlayer, MockPlayer
+from classes.game_status import GameStatus
+from classes.player_move import Move
+from visualization.visualize_board import VisualizeBoardInTerminal
 import typing as T
 
 
