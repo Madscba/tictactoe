@@ -13,8 +13,9 @@ dependencies = [
 
 [tool.setuptools]
 packages = ["src"]
+package-dir = {"" = "src"}
 
 [tool.pytest.ini_options]
-pythonpath = [
-  "."
-]
+pythonpath = [""]
+addopts = "-v"
+testpaths = ["tests"]
